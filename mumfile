@@ -2,3 +2,14 @@ dil e nadan tujhe hua kya h
 aakhir is marz ki dawa kya h
 Hme unse h wafa ki ummeed jinhe maloom hi nahi wafa kya h
 Fourth line from mumbai.
+
+##lets make a shell script
+
+read -p "What is the color that you like: " color
+
+if [[ $color == "red" ]]
+then	
+	echo "You are selected!!"
+else
+	echo "You are not selected !!"
+fi
